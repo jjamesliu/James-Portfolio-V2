@@ -16,17 +16,20 @@ function Hero() {
   const githubIcon = theme === 'light' ? githubDay : githubNight;
 
   return (
-     <section id="hero" className={styles.container}>
-     <div className={styles.heroContainer}>
-        <img className={styles.profilePic} 
-        src={heroImg} 
-        alt="James Liu Profile Picture">
-        </img>
+    <>
         <img 
         className={styles.themeMode}
         src={themeIcon} 
         alt="Dark/Light Mode"
         onClick={toggleTheme}>
+        </img>
+
+
+     <section id="hero" className={styles.container}>
+     <div className={styles.heroContainer}>
+        <img className={styles.profilePic} 
+        src={heroImg} 
+        alt="James Liu Profile Picture">
         </img>
      </div>
      
@@ -46,11 +49,10 @@ function Hero() {
         </a>
       </span>
       <p>
-        Hi, I'm James Liu, a full-stack developer based in Los Angeles, California. 
-        I specialize in developing web applications. 
-        I'm a junior studying at University of California: Los Angeles.
+        Hi, I'm James Liu, a full-stack developer based in Los Angeles, California, 
+        studying at University of California: Los Angeles. I specialize in developing web applications. 
       </p>
-      <p>
+      <p className={styles.closing}>
         I'm always open to learn and connect so don't hesitate to reach out to me.
       </p>
       <a href={CV} target="_blank" rel="noopener noreferrer"> 
@@ -58,6 +60,7 @@ function Hero() {
       </a>
      </div>
      </section>
+     </>
   )
 }
 
