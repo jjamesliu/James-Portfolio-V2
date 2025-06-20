@@ -13,7 +13,7 @@
     justify-content:center;
     text-align:center;
     height: 90dvh;
-    min-height: 700px;
+    min-height: 750px;
     margin: 0 100px;
 }
 
@@ -22,7 +22,7 @@
     width: 100%;
     display: flex;
     justify-content:flex-end;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .themeMode {
     width: 40px;
