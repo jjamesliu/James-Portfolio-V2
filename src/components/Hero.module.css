@@ -12,7 +12,7 @@
     align-items: center;
     justify-content:center;
     text-align:center;
-    height: 90dvh;
+    height: 100dvh;
     min-height: 750px;
     margin: 0 100px;
     max-width: 700px;
@@ -24,7 +24,6 @@
     justify-content:flex-end;
 }
 .themeMode {
-    margin-top:30px;
     width: 40px;
     cursor: pointer;
     z-index: 1000;

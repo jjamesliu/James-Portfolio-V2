@@ -32,10 +32,9 @@ body {
     background-color: var(--background-color);
     display: flex;
     justify-content: center;
-
 }
 
-#root {
+#root { /* didnt change */
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -43,8 +42,4 @@ body {
 
 h1,h2,h3,p {
     color: var(--text-color);
-}
-
-.sectionTitle {
-    margin-bottom: 30px;
 }
