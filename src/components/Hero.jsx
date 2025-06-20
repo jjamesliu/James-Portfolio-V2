@@ -1,5 +1,5 @@
 import styles from './Hero.module.css'
-import heroImg from '../assets/jamesliuprofilepic.png'
+import heroImg from '../assets/jamesliuprofilepicture.png'
 import lightmode from '../assets/sun.svg'
 import darkmode from '../assets/moon.svg'
 import githubDay from '../assets/github-light.svg'
