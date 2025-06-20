@@ -17,15 +17,17 @@ function Hero() {
 
   return (
     <>
-        <img 
+
+
+     <section id="hero" className={styles.container}>
+      <div className={styles.themeWrapper}>
+      <img 
         className={styles.themeMode}
         src={themeIcon} 
         alt="Dark/Light Mode"
         onClick={toggleTheme}>
-        </img>
-
-
-     <section id="hero" className={styles.container}>
+     </img>
+     </div>
      <div className={styles.heroContainer}>
         <img className={styles.profilePic} 
         src={heroImg} 

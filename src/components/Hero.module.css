@@ -13,15 +13,26 @@
     justify-content:center;
     text-align:center;
     height: 90dvh;
+    min-height: 700px;
+    margin: 0 100px;
 }
 
+
+.themeWrapper {
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    margin-bottom: 30px;
+}
 .themeMode {
     width: 40px;
-    position: fixed;
-    top: 20px;
-    right: 30px;
     cursor: pointer;
     z-index: 1000;
+    transition: transform 0.2s ease, opacity 0.15s ease;
+}
+.themeMode:hover {
+    transform: scale(1.1) rotate(10deg);
+    opacity: 0.65;
 }
 
 .closing {
