@@ -34,10 +34,10 @@ function Hero() {
      </div>
      
      <div className={styles.info}>
-      <h1>
+      <h1 className={styles.james}>
         James Liu
       </h1>
-      <h2>
+      <h2 className={styles.fullstack}>
         Full-Stack Developer
       </h2>
       <span>

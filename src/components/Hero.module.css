@@ -17,11 +17,11 @@
 
 .themeMode {
     width: 40px;
-    cursor:pointer;
-    display: block;
-    margin-right: 0;
-    margin-left: auto;
-    margin-top: 20px;
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 1000;
 }
 
 .closing {
@@ -40,3 +40,20 @@ span img {
     width: 60px;
 }
 
+h1 {
+ font-style: bold;
+}
+
+.james {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.fullstack {
+    font-family: "Inter", sans-serif;
+    font-size: 1.3rem;
+}
+
+[data-theme="dark"] .fullstack {
+    color: #c1c1c1;
+}
