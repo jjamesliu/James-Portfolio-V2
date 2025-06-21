@@ -17,8 +17,6 @@ function Hero() {
 
   return (
     <>
-
-
      <section id="hero" className={styles.container}>
       <div className={styles.themeWrapper}>
       <img 

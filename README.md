@@ -4,7 +4,7 @@ James Liu's modern responsive personal portfolio.
 
 ## Tech Stack
 
-  **Build Tool:** Vite
+  **Build Tool:** Vite<br>
   **Library:** React
 
  
