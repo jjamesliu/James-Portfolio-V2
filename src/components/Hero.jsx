@@ -60,6 +60,7 @@ function Hero() {
       </a>
      </div>
      </section>
+     <h1 className={styles.title}>Projects</h1>
      </>
   )
 }
